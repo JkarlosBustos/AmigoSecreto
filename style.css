@@ -160,3 +160,26 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+.button-container {
+    display: flex; /* Para que los botones se muestren en línea */
+    gap: 15px; /* Añade espacio entre los botones */
+    justify-content: center; /* Centra los botones en el contenedor */
+    margin-top: 20px; /* Da espacio adicional desde los elementos de arriba */
+}
+
+.button-draw,
+.button-clear {
+    padding: 10px 20px; /* Añade relleno a los botones para hacerlo más espacioso */
+    font-size: 16px; /* Ajusta el tamaño del texto */
+    border: none;
+    border-radius: 5px; /* Botones con bordes redondeados */
+    cursor: pointer;
+    background-color: #007BFF; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    transition: background-color 0.3s ease; /* Animación suave al pasar el mouse */
+}
+
+.button-draw:hover,
+.button-clear:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
