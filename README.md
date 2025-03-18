@@ -1,2 +1,3 @@
 # AmigoSecreto
-Aplicacion Desarrollada en JavaScript, selecciona al azae Amigo Secreto
+Aplicacion Desarrollada en JavaScript, selecciona al azar Amigo Secreto
+
